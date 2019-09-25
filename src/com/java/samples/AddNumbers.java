@@ -5,7 +5,7 @@ public class AddNumbers {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 
-		System.out.println("Sum is 100");
+		System.out.println("mul is 100");
 		
 	}
 
