@@ -6,6 +6,7 @@ public class programEmployee {
 		Employee emp = GetHeighestPaidEmployee();
 
 		emp.CalculateBonus();
+		System.out.println("Company Name :"+emp.getCompanyName());
 
 		System.out.println("Result : EmpId : "+emp.empId+", EmpName : " + emp.empName + " , Bonus : " + emp.empBonus);
 	}

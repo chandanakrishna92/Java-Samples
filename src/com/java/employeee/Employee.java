@@ -8,5 +8,10 @@ public abstract class Employee {
 	public double empBasicpay;
 
 	public abstract void CalculateBonus();
+	
+	public String getCompanyName() {
+		
+		return "MySuperDooperCompany";
+	}
 
 }
