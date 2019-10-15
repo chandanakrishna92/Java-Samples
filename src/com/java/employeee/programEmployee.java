@@ -7,7 +7,7 @@ public class programEmployee {
 
 		emp.CalculateBonus();
 
-		System.out.println("Result : EmpName : " + emp.empName + " , Bonus : " + emp.empBonus);
+		System.out.println("Result : EmpId : "+emp.empId+", EmpName : " + emp.empName + " , Bonus : " + emp.empBonus);
 	}
 
 	public static Employee GetHeighestPaidEmployee() {
